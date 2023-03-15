@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pzlab002", "pzlab002\pzlab002.csproj", "{DECDBA4C-9B33-4F4A-A93A-CD382B25C948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librarypzlab002", "ConsoleApplab003\Librarypzlab002.csproj", "{2DCD84AC-5425-44DD-9855-13F2585791A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECDBA4C-9B33-4F4A-A93A-CD382B25C948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECDBA4C-9B33-4F4A-A93A-CD382B25C948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECDBA4C-9B33-4F4A-A93A-CD382B25C948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECDBA4C-9B33-4F4A-A93A-CD382B25C948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCD84AC-5425-44DD-9855-13F2585791A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCD84AC-5425-44DD-9855-13F2585791A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCD84AC-5425-44DD-9855-13F2585791A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCD84AC-5425-44DD-9855-13F2585791A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A28FC419-0F1D-4F42-8700-04871D1A4998}
+	EndGlobalSection
+EndGlobal
