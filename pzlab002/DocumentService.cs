@@ -1,10 +1,4 @@
 ﻿using Librarypzlab002.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Librarypzlab002
 {
@@ -18,7 +12,7 @@ namespace Librarypzlab002
         {
             if (documents.Exists(x => x.ISBN == temp.ISBN))
                 throw new WrongDocumentException("Dokument o takim ISBN już istnieje!");
-            
+
             if (temp is Volume && ((Volume)temp).NumbersOfVolume > ((Volume)temp).NumbersOfAllVolume)
                 throw new WrongDocumentException("Numer tomu jest wiekszy niz liczba wszystkich");
 
@@ -34,8 +28,8 @@ namespace Librarypzlab002
             return document;
         }
 
-        public List<Document> GetDocumentsWithTitle(string temp) 
-        { 
+        public List<Document> GetDocumentsWithTitle(string temp)
+        {
             var tempdoc = documents.FindAll(x => x.Title.Contains(temp));
 
             return tempdoc;
